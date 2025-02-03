@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('imagen 1.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-color: black;
+    color: white;
+    transition: background-image 1s ease-in-out; /* Transición de 1 segundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: left; /* Justifica el texto a la izquierda */
+    max-width: 80%; /* Ajusta el ancho máximo del contenedor */
+}
+
+h1 {
+    font-size: 5.5vw; /* Tamaño del texto proporcional al ancho de la ventana */
+}
+
+p {
+    font-size: 2.2vw; /* Tamaño del texto proporcional al ancho de la ventana */
+}
